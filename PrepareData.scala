@@ -7,7 +7,7 @@ object PrepareData {
 
   def main(args: Array[String]) {
 
-    val sparkConf = new SparkConf().setAppName("PrepareData").setMaster("local[2]")
+    val sparkConf = new SparkConf().setAppName("BeelineHack").setMaster("local[2]")
     val sc = new SparkContext(sparkConf)
     val sqlc = new SQLContext(sc)
 
